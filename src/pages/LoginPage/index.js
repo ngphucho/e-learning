@@ -29,7 +29,7 @@ export default function LoginPage() {
   //   const inpMatKhau = useRef();
   const dispatch = useDispatch();
   const location = useLocation();
-  const { userInfo, isLoading, error } = useSelector((state) => state.auth);
+  const { userInfo, error } = useSelector((state) => state.auth);
   const {
     register,
     handleSubmit,
